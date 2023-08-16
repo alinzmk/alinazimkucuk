@@ -8,7 +8,6 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home"
 import ErrorPage from "./pages/error-page";
-import Aboutme from "./pages/Aboutme";
 
 const router = createBrowserRouter([
   {
@@ -16,10 +15,7 @@ const router = createBrowserRouter([
     element: <Home/>,
     errorElement: <ErrorPage/>
   },
-  {
-    path: "/aboutme",
-    element: <Aboutme/>,
-  },
+ 
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
