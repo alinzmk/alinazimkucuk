@@ -9,8 +9,8 @@ function Carousel() {
   return (
     <>
     <div className='row justify-content-center mt-4'>
-        <div className='col-12 col-lg-3 m-lg-3'>
-            <a href="#">
+        <div className='col-12 col-lg-3 m-lg-3 p-2'>
+            <a href="https://alinzmk.github.io/ProjectZ/" target='_blank'>
             <div class="card">
                     <img id="" className="card-image-top px-lg-5 py-lg-3" draggable="false" src={zlogo} alt=""/>
                     <div class="card-body">
@@ -20,20 +20,20 @@ function Carousel() {
             </div>
             </a>
         </div>
-        <div className='col-12 col-lg-3 m-lg-3'>
+        <div className='col-12 col-lg-3 m-lg-3 p-2'>
             <div class="card">
             <img id="" className="card-image-top p-lg-5" draggable="false" src={logo} alt=""/>
             <div class="card-body">
-                <h5 class="card-title">Coming Soon</h5>
+                <h5 class="card-title">Alıç Kuru</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>
         </div>
-        <div className='col-12 col-lg-3 m-lg-3'>
+        <div className='col-12 col-lg-3 m-lg-3 p-2'>
             <div class="card">
             <img id="" className="card-image-top p-lg-5" draggable="false" src={logo} alt=""/>
             <div class="card-body">
-                <h5 class="card-title">Coming Soon</h5>
+                <h5 class="card-title">Alıç Kuru</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
             </div>

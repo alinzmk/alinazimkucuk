@@ -21,8 +21,16 @@ a:hover, a:focus {
   outline: none !important; 
 }
 
-.SKILLSET, .PROJECT, .ABOUTME, .CONTACT{
+html {
+  scroll-behavior: smooth;
+}
+
+.SKILLSET, .PROJECT, .ABOUTME {
   margin: 7rem 0 !important;
+}
+
+.CONTACT{
+  margin: 6rem 0 0 0 !important;
 }
 
 .HOME{
@@ -89,17 +97,17 @@ nav{
     margin: 0 10px 0 10px;
     display: inline-block; }
   .ftco-footer-social li a {
-      height: 40px;
-      width: 40px;
+      height: 70px;
+      width: 70px;
       display: block;
       background: rgba(0, 0, 0, 0.05);
       border-radius: 50%;
       background: transparent;
-      border: 1px solid #2C3639;
+      border: 2px solid #2C3639;
       position: relative; }
   .sociallogo{
     position: absolute;
-    font-size: 20px;
+    font-size: 40px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -146,8 +154,9 @@ nav{
     position: relative; }
 
     .nav-sociallogo{
+      font-weight: lighter;
       position: absolute;
-      font-size: 25px;
+      font-size: 35px;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);

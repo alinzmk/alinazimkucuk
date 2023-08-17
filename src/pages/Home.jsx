@@ -34,7 +34,7 @@ function App() {
               Skillset
             </h1>
             <h4 className='home-text2'>
-            Software Development, Web, UI/UX, Graphic Design, Cold Jokes <span className='dot'>?</span>
+            Software Development, Web, UI/UX, Graphic Design, Cold Jokes<span className='dot'>?</span>
             </h4>
           </div>
           <div className="col-12 col-lg-6 d-flex justify-content-center">
@@ -90,20 +90,20 @@ function App() {
             </h1>
             <h5 className='parag mt-4'>
               Currently I am an unemployed new graduate and I want to be part of a great equip as soon as possible if
-              you want to give me that opportunity, reach me below links<span className='dot'>.</span> Thanks for come this along <span className='dot'>!</span>
+              you want to give me that opportunity, reach me below links<span className='dot'>.</span> Thanks for come this far<span className='dot'>!</span>
             </h5>
           </div>
-        </div>
-        <div class="row justify-content-center">
               <div class="col-md-12 text-center">
            
-              <ul class="ftco-footer-social p-0">
+              <ul class="ftco-footer-social p-0 mt-5">
                 <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="sociallogo fa-brands fa-instagram"></i></a></li>
                 <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="sociallogo fa-regular fa-envelope"></i></a></li>
                 <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="sociallogo fa-brands fa-linkedin-in"></i></a></li>
                 <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="sociallogo fa-brands fa-github"></i></a></li>
               </ul>
               </div>
+        </div>
+        <div class="row justify-content-center">
               </div>
 
       </header>
