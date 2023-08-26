@@ -1,6 +1,7 @@
 import '../App.css';
 import { Link } from 'react-router-dom';
 import logo from "../images/logo-1.png";
+import Darkmode from 'darkmode-js';
 
 function Navbar() {
   return (
@@ -24,17 +25,16 @@ function Navbar() {
                 </li>
                 
             </ul>
-            <ul class="navbar-ul ftco-navbar-social p-0 me-lg-5 text-center ">
-              <li class=""><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="nav-sociallogo fa-brands fa-instagram"></i></a></li>
-              <li class=""><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="nav-sociallogo fa-regular fa-envelope"></i></a></li>
-              <li class=""><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="nav-sociallogo fa-brands fa-github"></i></a></li>
-              <li class=""><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="nav-sociallogo fa-brands fa-linkedin-in"></i></a></li>
-              
+              <ul class="navbar-ul ftco-navbar-social p-0 me-lg-5 text-center ">
+                <li class=""><a href="https://www.instagram.com/alinkucuk/" target='_blank' data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><i class="nav-sociallogo fa-brands fa-instagram"></i></a></li>
+                <li class=""><a href="mailto:alinazimkucuk@gmail.com" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><i class="nav-sociallogo fa-regular fa-envelope"></i></a></li>
+                <li class=""><a href="https://github.com/alinzmk" target='_blank' data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="nav-sociallogo fa-brands fa-github"></i></a></li>
+                <li class=""><a href="https://www.linkedin.com/in/ali-nazım-küçük/" target='_blank' data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><i class="nav-sociallogo fa-brands fa-linkedin-in"></i></a></li>
               </ul>
             </div>
-        </div>
+          </div>
         </nav>
-  </div>
+    </div>
   );
 }
 

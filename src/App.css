@@ -6,6 +6,10 @@
     -o-transition: .3s all ease;
     transition: .3s all ease;
 }
+::selection {
+  color: #DCD7C9;
+  background: #2C3639;
+}
 body {
   font-family: "Poppins", Arial, sans-serif;
   font-size: 15px;
@@ -21,12 +25,18 @@ a:hover, a:focus {
   outline: none !important; 
 }
 
-.SKILLSET, .PROJECT, .ABOUTME, .CONTACT{
-  margin: 7rem 0 !important;
+.PROJECT, .ABOUTME{
+  margin: 4rem 0;
+}
+.SKILLSET{
+  margin: 3rem 1rem;
+}
+.CONTACT{
+  margin: 3rem 1rem;
 }
 
 .HOME{
-  margin: 6rem 0 !important;
+  margin: 3rem 1rem;
 }
 
 nav{
@@ -46,16 +56,31 @@ nav{
 }
 
 #ali-photo{
+  position: relative;
     width: 20rem;
     border-radius: 50%;
     border: 5px solid #3F4E4F;
+    z-index: 2;
+
+}
+#ali-sm-photo{
+  position: relative;
+  width: 13rem;
+  border-radius: 50%;
+  border: 5px solid #3F4E4F;
+  z-index: 2;
+
 }
 
 .home-text{
     text-shadow: 1.5px 1px #3F4E4F ;
+    text-align: center;
+    font-size: 2.5rem;
 }
 .home-text2{
   text-shadow: 1px 0.5px #3F4E4F ;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 #error-page{
@@ -86,20 +111,21 @@ nav{
 
   .ftco-footer-social li {
     list-style: none;
-    margin: 0 10px 0 10px;
+    margin: 0 20px 0 20px;
     display: inline-block; }
   .ftco-footer-social li a {
-      height: 40px;
-      width: 40px;
+      height: 60px;
+      width: 60px;
       display: block;
       background: rgba(0, 0, 0, 0.05);
       border-radius: 50%;
       background: transparent;
-      border: 1px solid #2C3639;
+      border: 2px solid #2C3639;
       position: relative; }
+
   .sociallogo{
     position: absolute;
-    font-size: 20px;
+    font-size: 35px;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -134,7 +160,7 @@ nav{
 
 .ftco-navbar-social li {
   list-style: none;
-  margin: 0 5px 0 0;
+  margin: 0 15px 0 0;
   display: inline-block; }
 .ftco-navbar-social li a {
     height: 40px;
@@ -147,13 +173,19 @@ nav{
 
     .nav-sociallogo{
       position: absolute;
-      font-size: 25px;
+      font-size: 30px;
       top: 50%;
       left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
 
+    .darkmode-layer, .darkmode-toggle {
+  z-index: 1;
+}
+  .card{
+    z-index: 2;
+  }
 @media only screen and (min-width: 750px) {
     .footerlink{
       margin: 2rem;
@@ -163,5 +195,24 @@ nav{
     #homepage{
       height: auto;
       padding: 0 7rem 0 7rem;
+  }
+  .SKILLSET, .PROJECT, .ABOUTME{
+    margin: 7rem 0 !important;
+  }
+  .CONTACT{
+    margin: 7rem 0 0 0;
+  }
+  
+  .HOME{
+    margin: 6rem 0 !important;
+  }
+
+  .home-text{
+    text-shadow: 1.5px 1px #3F4E4F ;
+    text-align: left;
+}
+  .home-text2{
+    text-shadow: 1px 0.5px #3F4E4F ;
+    text-align: left;
   }
 }
