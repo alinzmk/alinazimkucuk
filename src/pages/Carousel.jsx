@@ -43,7 +43,7 @@ function Carousel() {
                 </div>
             </a>
         </div>
-        <div className='col-6 col-lg-3 m-lg-3'>
+        <div className='col-6 col-lg-3 m-lg-3 d-none'>
             <a href="" target='_blank'>
                 <div class="card p-lg-0 m-3">
                 <img id="" className="card-image-top px-lg-5 py-lg-3" draggable="false" src={al} alt=""/>

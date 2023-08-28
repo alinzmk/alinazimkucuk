@@ -10,13 +10,13 @@ const options = {
   bottom: '64px', // default: '32px'
   right: '32px', // default: '32px'
   left: 'unset', // default: 'unset'
-  time: '0.9s', // default: '0.3s'
+  time: '1s', // default: '0.3s'
   mixColor: '#fff', // default: '#fff'
   backgroundColor: 'white',  // default: '#fff'
   buttonColorDark: '#2C3639',  // default: '#100f2c'
   buttonColorLight: '#DCD7C9', // default: '#fff'
-  saveInCookies: false, // default: true,
-  label: 'D', // default: ''
+  saveInCookies: true, // default: true,
+  label: '🌓', // default: ''
   autoMatchOsTheme: false // default: true
 }
 
@@ -36,11 +36,11 @@ function App() {
 
               </div>
             <h1 className='home-text ali'>
-              <span className='hello'>Hello, my name is</span><br></br>Ali Nazım<span className='dot'>.</span>
+              <span className='hello'>Hello, my name is</span><br></br>Ali Nazım<span className='dot'>. </span>
             </h1>
             <h5 className='parag'>
               I'm a new graduate Computer Engineer who loves to design and embody them as a Front-End Developer, 
-              meantime I study in Web3 DAPP's<span className='dot'>.</span>
+              meantime I study in Web3 DAPP's<span className='dot'>. </span>
             </h5>
           </div>
           <div className="col-12 col-lg-6 d-none d-lg-flex m-0 justify-content-center">
@@ -56,13 +56,13 @@ function App() {
               Skillset
             </h1>
             <h4 className='home-text2'>
-            Software Development, Web, UI/UX, Graphic Design, Cold Jokes<span className='dot'>?</span>
+              Software Development<span className='dot'>, </span> Web<span className='dot'>, </span> UI/UX<span className='dot'>, </span> Graphic Design<span className='dot'>, </span> Cold Jokes<span className='dot'>?</span>
             </h4>
           </div>
           <div className="col-12 col-lg-6 d-flex justify-content-center">
             <h5 className='parag'>
-                I finished <span className='dot'> Computer Engineering </span> recently, so I have knowledge about <span className='dot'> Software Devlopment </span> phases. Meantime while
-                I study in college, I start to study in <span className='dot'> Front-End Development </span> on my own (Mostly React). Besides I 
+                I finished <span className='dot'> Computer Engineering </span> recently<span className='dot'>, </span> so I have knowledge about <span className='dot'> Software Devlopment </span> phases<span className='dot'>. </span> Meantime while
+                I study in college<span className='dot'>, </span> I start to study in <span className='dot'> Front-End Development </span> on my own (Mostly React). Besides I 
                 love to play with colors and 
                 shapes in<span className='dot'> Web </span> and <span className='dot'> UI/UX Design</span>
                  <span className='dot'>.</span>
@@ -112,7 +112,7 @@ function App() {
             </h1>
             <h5 className='parag mt-4 text-center'>
               Currently I am an unemployed new graduate and I want to be part of a great equip as soon as possible if
-              you want to give me that opportunity, reach me below links<span className='dot'>.</span> Thanks for come this along<span className='dot'>!</span>
+              you want to give me that opportunity<span className='dot'>, </span> reach me below links<span className='dot'>.</span> Thanks for come this along<span className='dot'>!</span>
             </h5>
           </div>
               <div class="col-md-12 text-center mt-5">
