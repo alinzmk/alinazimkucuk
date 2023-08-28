@@ -4,7 +4,7 @@
 
 ## Used Technologies
 
-Darkmode.js
+Darkmode.js\
 Bootstrap 5
 
 
