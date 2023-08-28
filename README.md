@@ -1,6 +1,6 @@
 # Ali Nazım Küçük Personal Website
 
-[Click to view](https://github.com/facebook/create-react-app).
+[Click to view](https://alinzmk.github.io/alinazimkucuk/).
 
 ## Used Technologies
 
